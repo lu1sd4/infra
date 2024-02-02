@@ -1,0 +1,29 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - alacritty
+        - curl
+        - zip
+        - tar
+        - fzf
+        - htop
+        - jq
+        - neofetch
+        - openssh
+        - rsync
+        - unzip
+        - unrar
+        - wget
+        - zsh
+        - zsh-completions
+        - pulsemixer
+        - ranger
+        - autorandr
+        - nitrogen
+        - starship
+        - exa
+        - bat
+        - tealdeer
+        - tmux
+        - xclip

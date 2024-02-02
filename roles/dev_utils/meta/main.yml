@@ -1,0 +1,14 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - cmake
+        - gcc
+        - glibc
+        - mariadb
+        - pyenv
+        - virtualbox
+        - virtualbox-host-modules-arch
+        - mkcert
+        - myrepos
+        - nvm

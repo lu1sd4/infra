@@ -1,0 +1,13 @@
+- name: Install homesick
+  gem:
+    name: homesick
+    state: latest
+  become_user: "{{ secret_username }}"
+
+- name: Clone homesick directory
+  command: /home/{{ secret_username }}/.local/share/gem/ruby/3.0.0/bin/homesick clone git://github.com/lu1sd4/pyrenees.git
+  become_user: "{{ secret_username }}"
+
+- name: Link homesick folder
+  command: /home/{{ secret_username }}/.local/share/gem/ruby/3.0.0/bin/homesick link pyrenees
+  become_user: "{{ secret_username }}"

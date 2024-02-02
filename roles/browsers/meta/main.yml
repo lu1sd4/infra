@@ -1,0 +1,8 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - firefox
+        - chromium
+        - thunderbird
+

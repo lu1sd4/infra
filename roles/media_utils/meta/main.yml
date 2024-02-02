@@ -1,0 +1,13 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - vlc
+        - spotify
+        - scrot
+        - imagemagick
+        - peek
+        - zathura
+        - libreoffice-fresh
+        - pngcrush
+        - playerctl

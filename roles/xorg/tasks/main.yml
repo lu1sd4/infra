@@ -1,0 +1,10 @@
+- name: Install Xorg
+  pacman:
+    name:
+      - xorg
+      - xorg-apps
+      - xorg-server
+      - xorg-xinit
+      - xorg-drivers
+    state: present
+  become: true

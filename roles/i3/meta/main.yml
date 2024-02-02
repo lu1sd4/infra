@@ -1,0 +1,12 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - i3-wm
+        - polybar
+        - feh
+        - python-pywal
+        - dunst
+        - unclutter
+        - dmenu
+        - terminus-font

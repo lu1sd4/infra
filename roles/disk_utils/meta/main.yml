@@ -1,0 +1,9 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - udiskie
+        - exfat-utils
+        - gparted
+        - parted
+        - filelight

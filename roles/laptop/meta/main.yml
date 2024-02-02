@@ -1,0 +1,13 @@
+dependencies:
+  - role: xorg
+  - role: opengl
+  - role: audio
+  - role: bluetooth
+  - role: i3
+  - role: terminal_utils
+  - role: disk_utils
+  - role: browsers
+  - role: dev_utils
+  - role: media_utils
+  - role: socials
+  - role: dotfiles

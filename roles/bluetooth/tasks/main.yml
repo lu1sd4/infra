@@ -1,0 +1,19 @@
+- name: Install bluetooth support
+  pacman:
+    name:
+      - bluez
+      - bluez-utils
+      - blueman
+      - pulseaudio-bluetooth
+    state: present
+  notify: Enable Bluetooth service
+  register: _btinstalled
+  changed_when: _btinstalled.changed
+  become: true
+
+- name: enable bluetooth auto-power on
+  lineinfile:
+    dest: "/etc/bluetooth/main.conf"
+    state: present
+    regexp: "^#AutoEnable"
+    line: "AutoEnable=true"

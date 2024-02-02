@@ -1,0 +1,9 @@
+dependencies:
+  - role: packages
+    vars:
+      packages:
+        - alsa-utils
+        - alsa-plugins
+        - pulseaudio
+        - pulseaudio-alsa
+        - pavucontrol
